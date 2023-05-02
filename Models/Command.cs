@@ -3,7 +3,7 @@ using Solution.Models.Base;
 
 namespace Solution.Models
 {
-    public class Command : BaseModel
+    public class Command : BaseModel    //not use in project this file
     {
         [Required]
         [MaxLength(250)]

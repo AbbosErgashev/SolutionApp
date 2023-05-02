@@ -8,7 +8,7 @@ namespace Solution.Datas.Contexts
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         { }
 
-        public DbSet<Command> Commands { get; set; }
+        public DbSet<Command> Commands { get; set; }    //not use in project this file
 
         public DbSet<UserModel> Users { get; set; }
     }

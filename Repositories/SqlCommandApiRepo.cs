@@ -8,7 +8,7 @@ using Solution.Datas.Contexts;
 
 namespace Solution.Repositories
 {
-    public class SqlCommandApiRepo : ICommandApiRepo
+    public class SqlCommandApiRepo : ICommandApiRepo    //not use in project this file
     {
         private readonly ApplicationDbContext _context;
 

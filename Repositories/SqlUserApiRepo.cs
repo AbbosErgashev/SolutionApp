@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 using Solution.Interfaces;
 using Solution.Datas.Contexts;
 using Solution.Models;
-using System.Xml.Linq;
 
 namespace Solution.Repositories
 {

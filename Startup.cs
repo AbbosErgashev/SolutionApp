@@ -37,12 +37,11 @@ namespace Solution
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            services.AddScoped<ICommandApiRepo, SqlCommandApiRepo>();
+            services.AddScoped<ICommandApiRepo, SqlCommandApiRepo>();   //not use in project this file
 
             services.AddScoped<IUserApiRepo, SqlUserApiRepo>();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
