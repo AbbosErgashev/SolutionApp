@@ -6,7 +6,7 @@ using Solution.Dtos.CommandDtos;
 using Solution.Interfaces;
 using Solution.Models;
 
-namespace Solution.Controllers
+namespace Solution.Controllers  //not use in project this file
 {
     [Route("api/[controller]")]
     [ApiController]

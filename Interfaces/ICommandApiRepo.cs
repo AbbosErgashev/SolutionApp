@@ -5,7 +5,7 @@ using Solution.Datas.SavingDatasAsync;
 
 namespace Solution.Interfaces
 {
-    public interface ICommandApiRepo : ISaveChangesAsync
+    public interface ICommandApiRepo : ISaveChangesAsync    //not use in project this file
     {
         Task<IEnumerable<Command>> GetAllCommands();
 

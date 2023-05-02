@@ -3,7 +3,7 @@ using Solution.Dtos.CommandDtos;
 
 namespace Solution.Models.Profiles
 {
-    public class CommandsProfile : Profile
+    public class CommandsProfile : Profile  //not use in project this file
     {
         public CommandsProfile()
         {

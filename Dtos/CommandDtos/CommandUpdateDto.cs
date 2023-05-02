@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Solution.Dtos.CommandDtos
 {
-    public class CommandUpdateDto
+    public class CommandUpdateDto   //not use in project this file
     {
         [Required]
         [MaxLength(250)]
